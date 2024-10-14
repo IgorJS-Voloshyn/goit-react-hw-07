@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchAll());
   }, [dispatch]);
-  console.log(fetchAll());
+
   return (
     <div className={css.container}>
       <h1 className={css.title}>Phonebook</h1>

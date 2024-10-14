@@ -13,6 +13,6 @@ const filterSlice = createSlice({
 });
 
 export const filterReducer = filterSlice.reducer;
-export const filterSelector = (state) => state.filter;
+// export const filterSelector = (state) => state.filter;
 export const selectNameFilter = (state) => state.filter.name;
 export const { changeFilter } = filterSlice.actions;
